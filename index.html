@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Traffic Light Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Traffic Light System Dashboard</h1>
+
+  <!-- Live Camera Section -->
+  <h2>Live Camera Detection</h2>
+  <div class="dashboard">
+    <div class="card feed-card">
+      <h3>Main Camera Feed</h3>
+      <img id="main-camera" src="1.jpeg" alt="Main Camera Feed" />
+      <p id="main-status" class="status detected">Ambulance Detected</p>
+    </div>
+  </div>
+
+  <!-- Action Area -->
+  <h2>Traffic Signal Status</h2>
+  <div class="dashboard">
+    <div class="card">
+      <h3>Traffic Signal</h3>
+      <div id="light" class="traffic-light"></div>
+      <div id="signal-status" class="status">Current: <strong>RED</strong></div>
+    </div>
+
+    <div class="card">
+      <h3>Detection Info</h3>
+      <div id="detection-status" class="status not-detected">
+        No Ambulance Detected
+      </div>
+    </div>
+  </div>
+
+  <!-- Dual Camera Feeds -->
+  <h2>Additional Camera Feeds</h2>
+  <div class="dashboard">
+    <div class="card feed-card">
+      <h3>Feed 2</h3>
+      <img id="feed2-img" src="2.jpg" alt="Feed 2" />
+    </div>
+    <div class="card feed-card">
+      <h3>Feed 3</h3>
+      <img id="feed3-img" src="3.jpg" alt="Feed 3" />
+    </div>
+  </div>
+
+  <div class="footer">Status updates every 3 seconds</div>
+  <div class="credit">Designed by <strong>Abhiraj</strong></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

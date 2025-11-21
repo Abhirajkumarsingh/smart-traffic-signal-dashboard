@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #f0f0f0, #e0e0e0);
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .feed-card img {
+    width: 100%;
+    border-radius: 12px;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .traffic-light {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 1rem auto;
+    background: red;
+    transition: background 0.4s ease-in-out;
+  }
+  
+  .green {
+    background: #00c853 !important;
+  }
+  
+  .status {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #444;
+  }
+  
+  .detected {
+    color: #00c853;
+  }
+  
+  .not-detected {
+    color: #ff6f00;
+  }
+  
+  .footer {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .credit {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #888;
+  }
+  
