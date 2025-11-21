@@ -30,5 +30,75 @@ This is a **front-end only demo** using HTML, CSS, and JavaScript with simulated
 
 
 
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (Vanilla)**  
+
+---
+
+## 📂 Folder Structure
+
+/project-folder
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│ ├── 1.jpeg
+│ ├── 2.jpg
+│ ├── 3.jpg
+│ ├── 4.jpg
+│ ├── 5.jpg
+│ └── 6.jpg
+│── README.md
+
+
+---
+
+## ⚙️ How It Works
+
+- Images are pre-loaded inside an array.  
+- Every **3 seconds**, the dashboard:
+  - Loads next image  
+  - Checks if ambulance = true  
+  - Updates traffic light from Red → Green  
+  - Updates UI status  
+
+This is only a **simulation**, not actual AI.
+
+---
+
+## 🚀 How to Run
+
+Just open **index.html** in any browser.  
+No setup needed.
+
+---
+
+## 🌱 Future Improvements
+
+- Python + OpenCV real ambulance detection  
+- YOLO model integration  
+- Real traffic signal timing logic  
+- Dark/Light theme toggle  
+
+---
+
+## 👨‍💻 Author
+
+**Abhiraj Kumar**  
+
+---
+
+## ⭐ Support
+
+If you like the project, please give it a **star ⭐** on GitHub!
+
+
+
+
 
 
