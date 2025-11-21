@@ -21,6 +21,16 @@ This is a **front-end only demo** using HTML, CSS, and JavaScript with simulated
 - Clean and modern UI  
 
 ---
+## 📝 Project Overview
+
+A simple front-end simulation of a smart traffic system that detects ambulances and turns the signal **GREEN** automatically.  
+The dashboard rotates camera feeds every few seconds and updates the signal status based on predefined detection logic.
+
+Built 1.5 years ago using **HTML, CSS, and JavaScript**, this project shows how emergency vehicle detection could work in a real AI-powered traffic environment.
+
+👉 Live Demo:  
+https://abhirajkumarsingh.github.io/smart-traffic-signal-dashboard/
+
 
 ## 📸 Preview
 <img width="1385" height="847" alt="{7063A0DD-6F89-4C14-8D55-4E33B964C435}" src="https://github.com/user-attachments/assets/8ae193a6-c9fe-40f9-a4fd-e1689475d033" />
