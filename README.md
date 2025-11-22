@@ -46,7 +46,8 @@ https://abhirajkumarsingh.github.io/smart-traffic-signal-dashboard/
 
 - **HTML5**  
 - **CSS3**  
-- **JavaScript (Vanilla)**  
+- **JavaScript (Vanilla)**
+- 
 
 ---
 
@@ -101,11 +102,13 @@ No setup needed.
 
 **Abhiraj Kumar**  
 
+
 ---
 
 ## ⭐ Support
 
 If you like the project, please give it a **star ⭐** on GitHub!
+if you want to recommend something plese contact on emails
 
 
 
