@@ -1,5 +1,6 @@
 # 🚦 Smart Traffic Signal Dashboard  
 *A simple front-end simulation of an AI-based traffic light system.*
+(it's AI based version real working are in progress to lunch it had already 70% completed)
 
 This project simulates how an intelligent traffic system can detect an **ambulance** from camera feeds and automatically switch the traffic signal from **RED → GREEN** for emergency passage.
 
